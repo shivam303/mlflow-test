@@ -1,0 +1,22 @@
+# MLflow Core
+mlflow
+
+# Database - PostgreSQL adapter
+psycopg2-binary
+
+# Production WSGI Server
+gunicorn
+
+# AWS SDK for S3 artifact storage (recommended for production)
+boto3
+s3fs
+
+# Kubernetes client (for programmatic K8s interactions if needed)
+kubernetes
+
+# Configuration management
+python-dotenv
+
+# Additional dependencies for production
+click
+protobuf
